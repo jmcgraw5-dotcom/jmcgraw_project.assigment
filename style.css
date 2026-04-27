@@ -98,6 +98,12 @@ form {
     gap: 1rem;
 }
 
+label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
 input, select, textarea {
     padding: 0.7rem;
     border: 2px solid var(--primary);
@@ -112,6 +118,11 @@ button {
     border: none;
     cursor: pointer;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: #d91d0b;
+    transition: background-color 0.3s ease;
 }
 
 /* Footer */
