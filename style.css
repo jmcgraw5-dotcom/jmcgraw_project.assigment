@@ -132,3 +132,31 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+/* Content Images */
+.content-img-right {
+    float: right;
+    max-width: 45%;
+    height: auto;
+    margin: 1rem 0 1rem 1.5rem;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+}
+
+.content-img-left {
+    float: left;
+    max-width: 45%;
+    height: auto;
+    margin: 1rem 1.5rem 1rem 0;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .content-img-right,
+    .content-img-left {
+        float: none;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}
