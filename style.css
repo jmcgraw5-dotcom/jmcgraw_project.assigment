@@ -160,3 +160,26 @@ footer {
         margin: 1rem 0;
     }
 }
+
+/* Group Cards */
+.group-card {
+    background-color: #1a1a1a;
+    border-left: 4px solid var(--primary);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.group-card h3 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+.group-card p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.group-card strong {
+    color: var(--accent);
+}
