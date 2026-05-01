@@ -171,9 +171,10 @@ footer {
     overflow: auto;
 }
 
+/* Updated group card image */
 .group-card-img {
     float: right;
-    width: 280px;
+    width: 200px; /* updated to match your uploaded snippet */
     height: auto;
     margin: 0 0 1rem 1.5rem;
     border: 2px solid var(--primary);
@@ -201,3 +202,4 @@ footer {
         margin: 0 0 1rem 0;
     }
 }
+
