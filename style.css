@@ -171,14 +171,15 @@ footer {
     overflow: auto;
 }
 
-/* Updated group card image */
+/* Updated group card image (Option B: 140px height) */
 .group-card-img {
     float: right;
-    width: 200px; /* updated to match your uploaded snippet */
-    height: auto;
-    margin: 0 0 1rem 1.5rem;
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
     border: 2px solid var(--primary);
     border-radius: 8px;
+    margin: 0 0 1rem 1.5rem;
 }
 
 .group-card h3 {
@@ -199,7 +200,8 @@ footer {
     .group-card-img {
         float: none;
         width: 100%;
+        height: 200px;
+        object-fit: cover;
         margin: 0 0 1rem 0;
     }
 }
-
