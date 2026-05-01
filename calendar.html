@@ -1,9 +1,81 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Calendar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Phoenix Bikers Club Event Calendar">
+    <title>Phoenix Bikers Club - Calendar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Your Calendar</h1>
-    <!-- Calendar content goes here -->
+
+<header>
+    <div class="logo-area">
+        <img src="logo.png" alt="Phoenix Bikers Club Logo" class="logo-img">
+        <h1>Phoenix Bikers Club</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="groups.html">Groups/Clubs</a></li>
+            <li><a href="calendar.html" class="active">Calendar</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content-section">
+    <div class="info-box">
+        <h2>Upcoming Events</h2>
+        <p>Stay up to date with the latest rides, meets, and community events. New events are added regularly, so check back often.</p>
+
+        <!-- Event 1 -->
+        <div class="group-card">
+            <img src="royal.event.jpeg" alt="Parking Garage Banger" class="group-card-img">
+            <h3>Parking Garage Banger</h3>
+            <p><strong>Date:</strong> May 1</p>
+            <p><strong>Time:</strong> 8 PM – 10 PM</p>
+            <p><strong>Location:</strong> 11390 W Dale Earnhardt Dr, Avondale, AZ 85323</p>
+            <p><strong>Hosted By:</strong> Royal Moto Club, C3Works, Toruku, Illicit, Toxic Royalty</p>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="group-card">
+            <img src="hellsent.event.jpeg" alt="Hellsent Friday Meet" class="group-card-img">
+            <h3>Hellsent Friday Meet</h3>
+            <p><strong>Date:</strong> May 1, 2026</p>
+            <p><strong>Time:</strong> 7:30 PM – 10 PM</p>
+            <p><strong>Location:</strong> 1830 S Country Club Dr, Mesa, AZ 85210</p>
+            <p><strong>Rules:</strong> No burnouts, no revving, no 2-step. Respect the spot.</p>
+        </div>
+
+        <!-- Coming Soon Section -->
+        <h2 style="margin-top: 3rem; color: var(--primary);">More Events Coming Soon</h2>
+        <p>We’re always planning new rides, meets, and collaborations. Expect updates weekly as the season ramps up.</p>
+
+        <div class="group-card">
+            <h3>🔥 Summer Night Ride Series</h3>
+            <p>A multi-week ride series launching soon. Details will be posted here as dates are finalized.</p>
+        </div>
+
+        <div class="group-card">
+            <h3>🎥 Event Recap Videos</h3>
+            <p>We’ll be adding video recaps of past meets and rides. A placeholder video will appear here soon.</p>
+
+            <!-- Placeholder video embed area -->
+            <div style="margin-top: 1rem; background-color: #111; border: 2px solid var(--primary); border-radius: 8px; padding: 1rem; text-align: center;">
+                <p style="margin: 0; opacity: 0.7;">Video placeholder — upload coming soon</p>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p>phoenixbikersclub.com | © 2026 Phoenix Bikers Club | Social Links</p>
+</footer>
+
 </body>
 </html>
